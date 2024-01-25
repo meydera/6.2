@@ -1,0 +1,102 @@
+@font-face {
+	font-family: 'Manrope';
+	src: url('/styles/font/Manrope-ExtraLight.woff2') format('woff2'), url('/styles/font/Manrope-ExtraLight.woff') format('woff');
+	font-weight: 400;
+	font-style: normal;
+}
+
+*{
+    font-family:'Manrope', sans-serif;
+}
+
+.header{
+	display: grid;
+	grid-template-columns: repeat(27, 1fr);
+	justify-content: space-around;
+	padding-top: 50px;
+	padding-bottom: 50px;	
+}
+.boldo{
+	background-color: #0A2640;
+	display: grid;
+}
+
+#bb{
+	display: grid;
+	grid-column: 3/6;
+}
+
+#pb{
+	grid-column: 23/24;
+	color:white;
+	place-items: center;
+	font-weight: 600;
+	padding: 8px 40px;
+}
+
+#sb{
+	grid-column: 24/25;
+	color:white;
+	font-weight: 600;
+	padding: 8px 40px;
+}
+
+#ab{
+	grid-column: 25/26;
+	color:white;
+	font-weight: 600;
+	padding: 8px 40px;
+}
+
+#lb{
+	grid-column: 26/27; 
+	border: 2px solid white;
+	background-color: white;
+	border-radius: 24px;
+	padding: 8px 40px;
+	color: black;
+	font-weight: 700;
+}
+
+
+.link{
+	text-decoration: none;  
+}
+
+/* save */
+
+.save{
+	display: grid;
+	grid-template-columns: repeat(27, 1fr);
+	grid-template-rows: repeat(5, 1fr);
+	padding-bottom: 56px;
+}
+
+.buy{
+	grid-column: 3/14;
+	grid-row: 1/9;
+}
+
+#h21{
+	color: #fff;
+	font-weight: 400;
+	font-size: 48px;
+}
+
+#funding{
+	color: var(--Light-Grey, #F1F1F1);
+	font-size: 16px;
+	font-weight: 400;
+}
+
+.icon{
+	grid-column: 17/27;
+	grid-row: 1/10;
+}
+
+.img{
+	display: grid;
+	place-items: center;
+}
+
+
